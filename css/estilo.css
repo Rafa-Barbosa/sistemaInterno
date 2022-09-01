@@ -1,0 +1,106 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: arial;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.atalho_btns {
+	display: flex;
+}
+
+.atalho {
+	width: 100px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	display: flex;
+	padding: 10px;
+	padding-top: 0;
+	cursor: pointer;
+}
+
+.atalho_btns div {
+	background-color: rgba(0,0,0, .2);
+}
+
+.atalho:hover {
+	background-color: black;
+	color:  white;
+}
+
+.pesquisa {
+	width: 90%;
+	margin: 30px auto;
+}
+
+.pesquisa input, p {
+	margin-top: 10px;
+	margin-right: 15px;
+}
+
+label, input{
+	line-height: 30px;
+	height: 30px;
+	font-size: 13pt;
+	width: 8%;
+}
+
+input[type="date"], [type="number"]{
+	width: 5%;
+}
+
+button{
+	line-height: 30px;
+	height: 30px;
+	font-size: 13pt;
+	width: 8%;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+form{
+	background-color: rgba(0,0,0, .2);
+	padding: 20px;
+	margin: 30px auto;
+}
+
+table{
+	background-color: rgba(0,0,0, .2);
+	width: 90%;
+	margin: 30px auto;
+}
+
+tr{
+	line-height: 30px;
+}
+
+tr:hover {
+	background-color: rgba(0,1,0, .2);
+}
+
+#titulo{
+	font-weight: bold;
+	background-color: rgba(0,0,0, .6);
+	color: white;
+}
+
+td{
+	padding: 0px 5px;
+}
+
+a{
+	background-color: white;
+	color: black;
+	padding: 5px;
+	margin: 0px 5px;
+	text-decoration: none;
+}
+
+.botoes {
+	text-align: right;
+}

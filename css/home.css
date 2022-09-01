@@ -1,0 +1,29 @@
+* {
+	text-align: center;
+}
+
+h1 {
+	font-size: 55px;
+	font-family: verdana;
+}
+
+a {
+	width: 380px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	display: flex;
+	padding: 50px;
+	justify-content: space-between;
+	margin: 100px auto;
+}
+
+a:hover {
+	background-color: black;
+	color: white;
+}
+
+p {
+	font-size: 35px;
+	font-family: arial;
+}
